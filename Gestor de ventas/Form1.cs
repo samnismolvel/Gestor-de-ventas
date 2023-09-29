@@ -14,7 +14,7 @@ namespace Gestor_de_ventas
 {
     public partial class Form1 : Form
     {
-        string path = @"Data Source=SAMUEL\SQLEXPRESS; Initial Catalog=Ventas; Integrated Security=True;";
+        string path = @"Data Source=DESKTOP-C0U2SU0\SQLEXPRESS; Initial Catalog=Ventas; Integrated Security=True;";
         SqlConnection con;
         SqlCommand SetCmd;
         SqlCommand GetCmd;
